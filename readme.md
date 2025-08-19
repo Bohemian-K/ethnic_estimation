@@ -15,7 +15,7 @@ The pipeline integrates feature selection (`SelectOneFeaturePerMarker`), probabi
 
 2.Run the Pipeline 
    ```bash
-   python dual_moe_pipeline_v5.1.py
+   python pipeline.py
 ````
 
 3.Outputs
@@ -23,5 +23,6 @@ The pipeline integrates feature selection (`SelectOneFeaturePerMarker`), probabi
    * Cross-validation results comparing OvR-MoE and OvO-MoE pipelines
    * Summary report with performance metrics and confusion matrices (`./results/`)
    * Final trained OvR-MoE models and encoder saved in `./results/final_models/`
+
 
 
